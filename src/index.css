@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fffa949f;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #040404;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #333;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card.twitter .icon {
+  color: #1DA1F2;
+}
+
+.card.twitter:hover {
+  background-color: rgba(93, 96, 98, 0.526);
+}
+
+.card.instagram {
+  color: #000;
+}
+
+.card.instagram:hover {
+  background-color: #a9854baf;
+}
+.card.instagram button {
+  background-color: #000;
+  color: #f6f1f1;
+}
+
+.card.instagram button:hover {
+  background-color: #000;
+}
+
+.card.linkedin .icon {
+  color: #FF0000;
+}
+
+.card.linkedin:hover {
+  background-color: #029af8c0;
+}
+
+
