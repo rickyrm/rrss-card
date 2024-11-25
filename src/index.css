@@ -22,7 +22,7 @@ body {
   width: 300px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
 }
 
@@ -56,20 +56,17 @@ body {
   background-color: #333;
 }
 
-
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgb(0 0 0 / 20%);
 }
 
-
-
 .card.twitter .icon {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .card.twitter:hover {
-  background-color: rgba(93, 96, 98, 0.526);
+  background-color: rgb(93 96 98 / 52.6%);
 }
 
 .card.instagram {
@@ -79,6 +76,7 @@ body {
 .card.instagram:hover {
   background-color: #a9854baf;
 }
+
 .card.instagram button {
   background-color: #000;
   color: #f6f1f1;
@@ -89,11 +87,9 @@ body {
 }
 
 .card.linkedin .icon {
-  color: #FF0000;
+  color: #f00;
 }
 
 .card.linkedin:hover {
   background-color: #029af8c0;
 }
-
-
